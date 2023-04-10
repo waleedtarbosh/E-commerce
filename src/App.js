@@ -1,9 +1,12 @@
-import logo from "./logo.svg";
-import "./App.css";
-import "./component/Tabs/index";
+import './App.css';
+import CarouselMain from './components/Carousel/CarouselMain.jsx';
+import CenteredTabs from "./component/Tabs/index";
 
 function App() {
-  return <CenteredTabs />;
+  return  <div className="App">
+  <CenteredTabs />
+  <CarouselMain />
+   </div>
 }
 
 export default App;
