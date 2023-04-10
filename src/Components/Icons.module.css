@@ -1,0 +1,7 @@
+.Icons{
+    display: flex;
+    justify-content: space-around;
+    width:100px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
