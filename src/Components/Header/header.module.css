@@ -1,0 +1,9 @@
+.Container{
+    display: flex;
+    width: 1165.89px;
+    margin-left: 135px;
+    margin-right: 139px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}

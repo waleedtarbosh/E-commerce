@@ -5,3 +5,11 @@
     margin-left: 10px;
     margin-top: 10px;
 }
+.Icons a{
+    text-decoration: none;
+    color: black;
+}
+.Icons a:hover{
+    color: rgb(173, 125, 21);
+}
+

@@ -4,8 +4,8 @@ import styles from "./Icons.module.css";
 export default function Icons() {
     return (
      <div className={styles.Icons}>
-      <FavoriteBorderOutlinedIcon/>
-      <ShoppingCartOutlinedIcon/>
+      <a href='#'><FavoriteBorderOutlinedIcon/></a>
+      <a href="#"><ShoppingCartOutlinedIcon/></a>
      </div>
 
     );
