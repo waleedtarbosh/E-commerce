@@ -5,11 +5,12 @@ export const data = [
     price: 114,
     description: "Black and White version of the PS5 coming out on sale.",
     category: "electronics",
-    image: "ps5-slim-goedkope-playstation_large 1.png",
+    image: "ps5-slim-goedkope-playstation_large 1.svg",
     rating: {
       rate: 4.8,
       count: 400,
     },
+    click: "shop now",
   },
   {
     id: 2,
@@ -21,6 +22,7 @@ export const data = [
       rate: 3.9,
       count: 120,
     },
+    click: "shop now",
   },
   {
     id: 3,
@@ -34,6 +36,7 @@ export const data = [
       rate: 4.1,
       count: 259,
     },
+    click: "shop now",
   },
   {
     id: 4,
@@ -46,5 +49,6 @@ export const data = [
       rate: 4.7,
       count: 500,
     },
+    click: "shop now",
   },
 ];

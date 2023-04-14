@@ -1,0 +1,22 @@
+.title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.description {
+    margin: 16px 0;
+}
+
+.button {
+    font-size: 14px;
+    color: #FFFFFF;
+    border-bottom: 1px solid;
+    padding: 0;
+    border-radius: 0;
+}
+
+.text {
+    position: absolute;
+    bottom: 0;
+    padding-left: 24px;
+}

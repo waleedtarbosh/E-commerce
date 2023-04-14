@@ -1,0 +1,19 @@
+.categories_sale {
+    margin: 0 auto;
+    width: 1170px;
+    height: 500px;
+    background-color: #000;
+    color: #FAFAFA;
+    position: relative;
+    cursor: pointer;
+}
+
+.categories_sale img {
+    position: absolute;
+    width: 568px;
+    height: 330px;
+    left: calc(((50% - 568px) / 2) + 568px);
+    top: 50%;
+    transform: translateY(-50%);
+
+}
