@@ -2,14 +2,14 @@ import React from "react";
 import Card from "@mui/material/Card";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
-import CardIcons from "./CardIcons";
+import CardIcons from "../CardIcons";
 import style from "./index.module.css";
 import { useState } from "react";
 
 const TopCardSection = ({ disCount, image }) => {
   const { imgStyle } = style;
   const [isShownButton, setIsShownButton] = useState(false);
-  
+
   let backgroundColor = "#00FF66";
 
   if (disCount !== "NEW") {
@@ -59,15 +59,15 @@ const TopCardSection = ({ disCount, image }) => {
         <Button
           sx={{
             position: "absolute",
-            width:"270px",
+            width: "270px",
             height: "41px",
             left: "0%",
             right: "0%",
             bottom: "0px",
-            background:"#000000",
-            borderRadius:"0px 0px 4px 4px",
-            color:"#FFFFFF",
-            fontSize:"16px" 
+            background: "#000000",
+            borderRadius: "0px 0px 4px 4px",
+            color: "#FFFFFF",
+            fontSize: "16px",
           }}
         >
           Add To Cart

@@ -6,8 +6,7 @@ import FormControlLabel from "@mui/material/FormControlLabel";
 import RadioButtonCheckedIcon from "@mui/icons-material/RadioButtonChecked";
 import RadioButtonUncheckedRoundedIcon from "@mui/icons-material/RadioButtonUncheckedRounded";
 
-const AvailabelColors = ({ availabelColors }) => {
-
+const AvailableColors = ({ availableColors }) => {
   return (
     <div>
       <FormControl>
@@ -16,13 +15,15 @@ const AvailabelColors = ({ availabelColors }) => {
           aria-labelledby="demo-row-radio-buttons-group-label"
           name="row-radio-buttons-group"
         >
-          {availabelColors.map((colorItem, index) => {
+          {availableColors.map((colorItem) => {
             return (
               <FormControlLabel
+                key={crypto.randomUUID()}
                 value={colorItem}
                 control={
                   <Radio
-                  sx={{marginLeft:"2px"}}
+                    key={crypto.randomUUID()}
+                    sx={{ marginLeft: "2px" }}
                     color="default"
                     checkedIcon={
                       <RadioButtonCheckedIcon
@@ -55,4 +56,4 @@ const AvailabelColors = ({ availabelColors }) => {
   );
 };
 
-export default AvailabelColors;
+export default AvailableColors;
