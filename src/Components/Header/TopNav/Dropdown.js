@@ -5,15 +5,10 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 export default function Dropdown() {
   const [open, setOpen] = React.useState(false);
 
-  const handleClick = () => {
-    setOpen((prev) => !prev);
-  };
+  const handleClick = () => setOpen((prev) => !prev);
+ 
 
-  const handleClickAway = () => {
-    setOpen(false);
-  };
-
-  
+  const handleClickAway = () => setOpen(false);
 
   return (
     <ClickAwayListener onClickAway={handleClickAway}>

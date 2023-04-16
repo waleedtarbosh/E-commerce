@@ -9,8 +9,6 @@ const HomePage = () => {
       <SideBar/>
       <CarouselMain/>
      </div>
-     
-     
     )
   }
   

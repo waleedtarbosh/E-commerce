@@ -9,11 +9,10 @@ const Header = () => {
    <>
    <TopNav/>
    <div className={header.Container}>
-   <Logo/>
-   <CenteredTabs/>
-   <SearchBarandIcons/>
+     <Logo/>
+     <CenteredTabs/>
+     <SearchBarandIcons/>
    </div>
-   
    </>
   )
 }

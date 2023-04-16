@@ -2,11 +2,16 @@ import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlin
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import styles from "./Icons.module.css";
 export default function Icons() {
+  const icons =[
+    <FavoriteBorderOutlinedIcon/>,
+    <ShoppingCartOutlinedIcon/>
+  ]
     return (
      <div className={styles.Icons}>
-      <a href='#'><FavoriteBorderOutlinedIcon/></a>
-      <a href="#"><ShoppingCartOutlinedIcon/></a>
+         {icons.map((icon) => (
+        <a href='#'>{icon}</a>
+      ))}
+      
      </div>
-
     );
   }
