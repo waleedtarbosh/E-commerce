@@ -8,14 +8,13 @@ const ProductCard = ({
   price,
   oldPrice,
   disCount,
-  category,
   image,
   rating: { rate, count },
   availableColors,
 }) => {
   return (
     <>
-      <TopCardSection disCount={disCount} image={image} id={id} />
+      <TopCardSection disCount={disCount} image={image} />
       <BottomCardSection
         title={title}
         price={price}
@@ -23,7 +22,6 @@ const ProductCard = ({
         rate={rate}
         count={count}
         availableColors={availableColors}
-        id={id}
       />
     </>
   );

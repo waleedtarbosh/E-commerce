@@ -15,41 +15,43 @@ const AvailableColors = ({ availableColors }) => {
           aria-labelledby="demo-row-radio-buttons-group-label"
           name="row-radio-buttons-group"
         >
-          {availableColors.map((colorItem) => {
-            return (
-              <FormControlLabel
-                key={crypto.randomUUID()}
-                value={colorItem}
-                control={
-                  <Radio
-                    key={crypto.randomUUID()}
-                    sx={{ marginLeft: "2px" }}
-                    color="default"
-                    checkedIcon={
-                      <RadioButtonCheckedIcon
-                        sx={{
-                          backgroundColor: colorItem,
-                          width: "20px",
-                          height: "20px",
-                          borderRadius: "50%",
-                        }}
-                      />
-                    }
-                    icon={
-                      <RadioButtonUncheckedRoundedIcon
-                        sx={{
-                          backgroundColor: colorItem,
-                          width: "20px",
-                          height: "20px",
-                          borderRadius: "50%",
-                        }}
-                      />
-                    }
-                  />
-                }
-              />
-            );
-          })}
+          {availableColors &&
+            availableColors.map(({ color, id }) => {
+              console.log(color);
+              return (
+                <FormControlLabel
+                  key={id}
+                  value={color}
+                  control={
+                    <Radio
+                      key={id}
+                      sx={{ marginLeft: "2px" }}
+                      color="default"
+                      checkedIcon={
+                        <RadioButtonCheckedIcon
+                          sx={{
+                            backgroundColor: color,
+                            width: "20px",
+                            height: "20px",
+                            borderRadius: "50%",
+                          }}
+                        />
+                      }
+                      icon={
+                        <RadioButtonUncheckedRoundedIcon
+                          sx={{
+                            backgroundColor: color,
+                            width: "20px",
+                            height: "20px",
+                            borderRadius: "50%",
+                          }}
+                        />
+                      }
+                    />
+                  }
+                />
+              );
+            })}
         </RadioGroup>
       </FormControl>
     </div>

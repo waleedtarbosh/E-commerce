@@ -11,7 +11,10 @@ export const flashSalesData = [
       rate: 3.9,
       count: 120,
     },
-    availableColors: ["#DB4444", "#FF0000"],
+    availableColors: [
+      { id: 1, color: "#DB4444" },
+      { id: 2, color: "#FF0000" },
+    ],
   },
   {
     id: 2,

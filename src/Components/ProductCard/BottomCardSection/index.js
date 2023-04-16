@@ -3,7 +3,7 @@ import Typography from "@mui/material/Typography";
 import Rating from "@mui/material/Rating";
 import StarIcon from "@mui/icons-material/Star";
 import style from "./index.module.css";
-import AvailableColors from "./AvailableColors";
+import AvailableColors from "../AvailableColors";
 
 const BottomCardSection = ({
   title,
@@ -13,7 +13,7 @@ const BottomCardSection = ({
   count,
   availableColors,
 }) => {
-  const { priceStyle, oldPriceStyle, countStyle, bottomCardSectionStyle, id } =
+  const { priceStyle, oldPriceStyle, countStyle, bottomCardSectionStyle } =
     style;
 
   return (
@@ -49,9 +49,7 @@ const BottomCardSection = ({
       />
       <span className={countStyle}>{`(${count})`}</span>
 
-      {availableColors && (
-        <AvailableColors availabelColors={availableColors} id={id} />
-      )}
+      {availableColors && <AvailableColors availableColors={availableColors} />}
     </div>
   );
 };
