@@ -1,0 +1,11 @@
+.flexContainer {
+  display: flex;
+}
+.container {
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10%;
+}
+.Countdown {
+  margin-top: 100px !important;
+}
