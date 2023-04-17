@@ -17,7 +17,6 @@ const AvailableColors = ({ availableColors }) => {
         >
           {availableColors &&
             availableColors.map(({ color, id }) => {
-              console.log(color);
               return (
                 <FormControlLabel
                   key={id}
