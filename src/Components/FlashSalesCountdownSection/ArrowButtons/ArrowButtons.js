@@ -1,23 +1,27 @@
-import styles from "./ArrowButtons.module.css";
+import styles from './ArrowButtons.module.css';
+
 const icons = [
   {
-    arrowClass: "fas fa-arrow-left",
+    id: 'left-arrow',
+    arrowClass: 'fas fa-arrow-left',
     containerClass: styles.leftArrow,
     iconArrowClass: styles.iconLeft,
     ellipseClass: styles.ellipse15,
   },
   {
-    arrowClass: "fas fa-arrow-right",
+    id: 'right-arrow',
+    arrowClass: 'fas fa-arrow-right',
     containerClass: styles.rightArrow,
     iconArrowClass: styles.iconRight,
     ellipseClass: styles.ellipse16,
-  },
+  }
 ];
+
 function ArrowButtons() {
   return (
     <div className={styles.ContainerArrow}>
-      {icons.map((icon, index) => (
-        <button key={index} className={styles.button}>
+      {icons.map((icon) => (
+        <button key={icon.id} className={styles.button}>
           <div className={icon.containerClass}>
             <div className={icon.iconArrowClass}>
               <div className={styles.vector}></div>
@@ -30,4 +34,5 @@ function ArrowButtons() {
     </div>
   );
 }
+
 export default ArrowButtons;
