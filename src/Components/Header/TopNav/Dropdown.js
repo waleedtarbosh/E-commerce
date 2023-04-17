@@ -6,8 +6,6 @@ export default function Dropdown() {
   const [open, setOpen] = React.useState(false);
 
   const handleClick = () => setOpen((prev) => !prev);
- 
-
   const handleClickAway = () => setOpen(false);
 
   return (

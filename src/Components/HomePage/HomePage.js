@@ -3,8 +3,6 @@ import SideBar from "./SideBar";
 import styles from "./HomePage.module.css";
 const HomePage = () => {
     return (
-    
-   
      <div className={styles.HomePage}>
       <SideBar/>
       <CarouselMain/>
