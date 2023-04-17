@@ -5,6 +5,7 @@ import Button from "@mui/material/Button";
 import CardIcons from "../CardIcons";
 import style from "./index.module.css";
 import { useState } from "react";
+import { cardIconsData } from "../../../data/cardIconsData";
 
 const TopCardSection = ({ disCount, image }) => {
   const { imgStyle } = style;
@@ -30,7 +31,10 @@ const TopCardSection = ({ disCount, image }) => {
         textAlign: "center",
       }}
     >
-      <CardIcons />
+      {cardIconsData &&
+        cardIconsData.map((icon) => {
+          return <CardIcons {...icon} key={icon.id} />;
+        })}
 
       {disCount && (
         <Typography
