@@ -6,6 +6,7 @@
   margin-top: 5%;
   margin-left: 250px;
 }
+
 .button {
   border: none;
   width: 46px;
@@ -13,12 +14,14 @@
   border-radius: 50%;
   cursor: pointer;
 }
+
 .iconArrow {
   z-index: 9999;
   margin-left: 15px;
   margin-top: 15px;
   font-size: 18px;
 }
+
 .leftArrow,
 .rightArrow {
   display: flex;
@@ -28,6 +31,7 @@
   height: 46px;
   position: relative;
 }
+
 .iconLeft,
 .iconRight {
   position: absolute;
@@ -36,11 +40,13 @@
   justify-content: center;
   align-items: center;
 }
+
 .vector {
   position: absolute;
   inset: 20.83% 16.67% 20.83% 14.58%;
   border: 2px solid #000000;
 }
+
 .ellipse15,
 .ellipse16 {
   position: absolute;
@@ -48,6 +54,7 @@
   background: #f5f5f5;
   border-radius: 50%;
 }
+
 .ellipse16 {
   left: calc(100% - 46px);
 }
