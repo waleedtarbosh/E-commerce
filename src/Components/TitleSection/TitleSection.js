@@ -1,10 +1,10 @@
 import React from "react";
 import Countdown from "./Countdown/Countdown";
 import ArrowButtons from "./ArrowButtons/ArrowButtons";
-import styles from "./FlashSalesCountdownSection.module.css";
+import styles from "./TitleSection.module.css";
 import Title from "./Title/Title";
 import Heading from "./Heading/Heading";
-const SecondSection = () => {
+const TitleSection = () => {
   return (
     <div className={styles.flexContainer}>
       <div className={styles.container}>
@@ -20,4 +20,4 @@ const SecondSection = () => {
     </div>
   );
 };
-export default SecondSection;
+export default TitleSection;

@@ -1,4 +1,4 @@
-import styles from "../Components/FlashSalesCountdownSection/Countdown/Countdown.module.css";
+import styles from "../Components/TitleSection/Countdown/Countdown.module.css";
 const countdownUnits = [
   {
     id: "days",

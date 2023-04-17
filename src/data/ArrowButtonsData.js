@@ -1,4 +1,4 @@
-import styles from '../Components/FlashSalesCountdownSection/ArrowButtons/ArrowButtons.module.css';
+import styles from '../Components/TitleSection/ArrowButtons/ArrowButtons.module.css';
  
 export const icons = [
     {
