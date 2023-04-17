@@ -1,4 +1,4 @@
-export const data = [
+export const dataFeatured = [
   {
     id: 1,
     title: "PlayStation 5",
@@ -10,7 +10,7 @@ export const data = [
       rate: 4.8,
       count: 400,
     },
-    click: "shop now",
+    button: "shop now",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ export const data = [
       rate: 3.9,
       count: 120,
     },
-    click: "shop now",
+    button: "shop now",
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ export const data = [
       rate: 4.1,
       count: 259,
     },
-    click: "shop now",
+    button: "shop now",
   },
   {
     id: 4,
@@ -49,6 +49,6 @@ export const data = [
       rate: 4.7,
       count: 500,
     },
-    click: "shop now",
+    button: "shop now",
   },
 ];

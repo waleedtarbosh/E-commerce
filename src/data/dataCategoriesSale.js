@@ -1,4 +1,4 @@
-export const data = [
+export const dataCategoriesSale = [
   {
     id: 10,
     title: "Categories",
@@ -10,6 +10,6 @@ export const data = [
       rate: 4.8,
       count: 400,
     },
-    click: "buy now",
+    button: "buy now",
   },
 ];
