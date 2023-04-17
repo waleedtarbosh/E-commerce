@@ -1,21 +1,5 @@
 import styles from './ArrowButtons.module.css';
-
-const icons = [
-  {
-    id: 'left-arrow',
-    arrowClass: 'fas fa-arrow-left',
-    containerClass: styles.leftArrow,
-    iconArrowClass: styles.iconLeft,
-    ellipseClass: styles.ellipse15,
-  },
-  {
-    id: 'right-arrow',
-    arrowClass: 'fas fa-arrow-right',
-    containerClass: styles.rightArrow,
-    iconArrowClass: styles.iconRight,
-    ellipseClass: styles.ellipse16,
-  }
-];
+import { icons } from '../../../data/ArrowButtonsData';
 
 function ArrowButtons() {
   return (
