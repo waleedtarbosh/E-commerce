@@ -7,8 +7,7 @@ import VideogameAssetIcon from "@mui/icons-material/VideogameAsset";
 import { Icon } from "@mui/material";
 import styles from "./style.module.css";
 
-export default function CustomIcon(props) {
-  const { iconName } = props;
+export default function CustomIcon({ iconName }) {
   let icon;
   switch (iconName) {
     case `Phone`:
