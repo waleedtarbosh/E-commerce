@@ -1,0 +1,8 @@
+.HomePage{
+    display: flex;
+    margin-left: 120px;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    margin-right:135px;
+    justify-items: center;
+}
