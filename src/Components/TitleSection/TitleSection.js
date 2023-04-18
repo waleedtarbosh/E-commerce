@@ -4,12 +4,13 @@ import ArrowButtons from "./ArrowButtons/ArrowButtons";
 import styles from "./TitleSection.module.css";
 import Title from "./Title/Title";
 import Heading from "./Heading/Heading";
-const TitleSection = ({ showCountdown }) => {
+
+const TitleSection = ({ showCountdown, title, heading }) => {
   return (
     <div className={styles.flexContainer}>
       <div className={styles.container}>
-        <Title Title="Today's" />
-        <Heading Heading="Flash Sales" />
+        <Title Title={title} />
+        <Heading Heading={heading} />
       </div>
       <div className={styles.container}>
         <div className={`${styles.flexContainer} ${styles.Countdown}`}>
