@@ -3,6 +3,7 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
+import { dataTabs } from "../../../data/dataTabs";
 
 const theme = createTheme({
   components: {
@@ -20,17 +21,9 @@ const theme = createTheme({
   },
 });
 export default function CenteredTabs() {
-  const data = [
-    { label: "Home" },
-    { label: "Contact" },
-    { label: "About" },
-    { label: "Sign Up" },
-  ];
   const [value, setValue] = React.useState(0);
 
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-  };
+  const handleChange = (event, newValue) => setValue(newValue);
 
   return (
     <ThemeProvider theme={theme}>
@@ -41,8 +34,8 @@ export default function CenteredTabs() {
           indicatorColor="black"
           centered
         >
-          {data.map((item, index) => {
-            return <Tab key={index} {...item} />;
+          {dataTabs.map((item) => {
+            return <Tab key={item.id} {...item} />;
           })}
         </Tabs>
       </Box>
