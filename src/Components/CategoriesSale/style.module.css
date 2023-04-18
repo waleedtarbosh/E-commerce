@@ -1,0 +1,44 @@
+.categories_sale {
+    margin: 0 auto;
+    width: 1170px;
+    height: 500px;
+    background-color: #000;
+    color: #FAFAFA;
+    position: relative;
+    cursor: pointer;
+}
+
+.categories_sale img {
+    position: absolute;
+    width: 568px;
+    height: 330px;
+    left: calc(((50% - 568px) / 2) + 568px);
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.title {
+    font-size: 16px;
+    color: #00FF66;
+
+}
+
+.description {
+    width: 443px !important;
+    font-weight: 600 !important;
+    font-size: 48px !important;
+    color: #FAFAFA;
+    margin: 32px 0 !important;
+}
+
+
+.button {
+    padding: 16px 48px;
+    width: 171px;
+    height: 56px;
+    background: #00FF66;
+    border-radius: 4px;
+    color: #FAFAFA;
+    cursor: pointer;
+}

@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.group {
+  width: 302px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin-left: 0%;
+  margin-top: 4%;
+  position: relative;
+}
+
+.semiClone1 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  position: absolute;
+  left: 20%;
+  top: 53%;
+}
+
+.ellipse18,
+.ellipse19 {
+  width: 4px;
+  height: 4px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: #e07575;
+}
+
+.ellipse19 {
+  order: 1;
+}
+
+.semiClone2 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  position: absolute;
+  left: 47%;
+  top: 53%;
+}
+
+.ellipse19,
+.ellipse20 {
+  width: 4px;
+  height: 4px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: #e07575;
+}
+
+.ellipse20 {
+  order: 1;
+}
+
+.semiClone3 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  position: absolute;
+  left: 75%;
+  top: 53%;
+}
+
+.ellipse21,
+.ellipse22 {
+  width: 4px;
+  height: 4px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: #e07575;
+}
+
+.ellipse22 {
+  order: 1;
+}
+
+.DaysCounter,
+.HoursCounter,
+.MinutesCounter,
+.SecondsCounter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+  position: relative;
+}
+
+.days,
+.hours,
+.minutes,
+.seconds {
+  width: auto;
+  height: 18px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.heading {
+  width: auto;
+  height: 28px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.DaysCounter {
+  left: 0%;
+}
+
+.HoursCounter {
+  left: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+
+.MinutesCounter {
+  left: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+
+.SecondsCounter {
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
