@@ -1,3 +1,4 @@
+
 import Header from '../src/Components/Header/Header'
 import HomePage from './Components/HomePage/HomePage';
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <HomePage/>
    </div>
   )
+
 }
 
 export default App;

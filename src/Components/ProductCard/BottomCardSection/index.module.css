@@ -1,0 +1,38 @@
+.priceStyle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 24px;
+  color: #db4444;
+  margin: 8px 12px 8px 0px;
+}
+
+.oldPriceStyle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  line-height: 24px;
+  text-decoration-line: line-through;
+  opacity: 0.5;
+}
+
+.countStyle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  opacity: 0.5;
+  margin-left: 8px;
+}
+
+.bottomCardSectionStyle {
+  margin-top: 16px;
+  width: 270px;
+}
