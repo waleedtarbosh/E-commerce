@@ -7,11 +7,15 @@ export const cardIconsData = [
     iconName: <FavoriteBorderIcon sx={{ color: "#000000" }} />,
     top: 12,
     right: 12,
+    backgroundColor: "#FFFFFF",
+    position: "absolute",
   },
   {
     id: 2,
     iconName: <VisibilityOutlinedIcon sx={{ color: "#000000" }} />,
     top: 54,
     right: 12,
+    backgroundColor: "#FFFFFF",
+    position: "absolute",
   },
 ];

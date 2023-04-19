@@ -1,14 +1,10 @@
-
-import Header from '../src/Components/Header/Header'
-import HomePage from './Components/HomePage/HomePage';
+import ProductDetails from "./Components/ProductDetails";
 function App() {
   return (
-   <div className="App">
-    <Header/>
-    <HomePage/>
-   </div>
-  )
-
+    <div className="App">
+      <ProductDetails />
+    </div>
+  );
 }
 
 export default App;
