@@ -20,7 +20,7 @@ export const productDetails = [
     },
     price: 192,
     inStock: true,
-    discreption:
+    descreption:
       "PlayStation 5 Controller Skin High quality vinyl with air channel adhesive for easy bubble free install & mess free removal Pressure sensitive.",
     sizes: [
       { size: "XS", id: 1 },

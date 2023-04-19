@@ -10,7 +10,7 @@ import style from "./index.module.css";
 const ProductQuantity = ({ sizes, availableColors, productIconData }) => {
   const { spanStyle } = style;
   return (
-    <>
+    <Box sx={{ marginTop: "24px" }}>
       <Box sx={{ display: "flex", textAlign: "center" }}>
         <span className={spanStyle}>Colours:</span>
         <AvailableColors availableColors={availableColors} />
@@ -50,7 +50,7 @@ const ProductQuantity = ({ sizes, availableColors, productIconData }) => {
           })}
         </Box>
       </Box>
-    </>
+    </Box>
   );
 };
 

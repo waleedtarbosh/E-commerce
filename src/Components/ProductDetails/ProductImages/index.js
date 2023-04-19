@@ -2,7 +2,7 @@ import React from "react";
 import Box from "@mui/material/Box";
 import style from "./index.module.css";
 import { useState } from "react";
-import MainImage from "../MainImage.js/index.js";
+import MainImage from "../MainImage";
 
 const ProductImages = ({ images }) => {
   const { imageStyle } = style;
