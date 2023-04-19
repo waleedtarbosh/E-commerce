@@ -13,8 +13,7 @@ const BottomCardSection = ({
   count,
   availableColors,
 }) => {
-  const { priceStyle, oldPriceStyle, countStyle, bottomCardSectionStyle } =
-    style;
+  const { priceStyle, oldPriceStyle, countStyle, bottomCardSectionStyle } = style;
 
   return (
     <div className={bottomCardSectionStyle}>
