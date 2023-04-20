@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from 'react-material-ui-carousel';
-import { Box } from '@material-ui/core';
+import { Box } from '@mui/material';
 import styles from './CarouselMain.module.css';
 
 function CarouselMain() {

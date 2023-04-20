@@ -1,11 +1,10 @@
 import React from "react";
 import Countdown from "./Countdown/Countdown";
-import ArrowButtons from "./ArrowButtons/ArrowButtons";
 import styles from "./TitleSection.module.css";
 import Title from "./Title/Title";
 import Heading from "./Heading/Heading";
 
-const TitleSection = ({ showCountdown, title, heading }) => {
+const TitleSection = ({ showCountdown, title, heading, RightPartOfTheSection }) => {
   return (
     <div className={styles.flexContainer}>
       <div className={styles.container}>
@@ -19,7 +18,7 @@ const TitleSection = ({ showCountdown, title, heading }) => {
               <Countdown days={3} hours={23} minutes={19} seconds={56} />
             )}
           </div>
-          <ArrowButtons className={styles.ArrowButtons} />
+          { RightPartOfTheSection }
         </div>
       </div>
     </div>
