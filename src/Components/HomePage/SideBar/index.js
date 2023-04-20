@@ -15,6 +15,10 @@ let sidBareItems = [
     nested: true,
   },
   {
+    name: "Electronics",
+    nested: false,
+  },
+  {
     name: "Home & Lifestyle",
     nested: false,
   },
@@ -41,16 +45,37 @@ let sidBareItems = [
 ];
 
 const SideBar = () => {
-
   return (
     <List
-      sx={{ width: "100%", maxWidth: 360, bgcolor: "background.paper" }}
+      sx={{
+        width: "100%",
+        maxWidth: 217,
+        bgcolor: "background.paper",
+        "&::before": {
+          content: "''",
+          position: "absolute",
+          height: 384,
+          width: "1px",
+          backgroundColor: "#b3b3b3",
+          right: 0,
+          top: "-40px",
+        },
+      }}
       component="nav"
       aria-labelledby="nested-list-subheader"
     >
       {sidBareItems.map((item, index) => (
-        <ListItem key={index} disablePadding>
-          <ListItemButton >
+        <ListItem
+          key={index}
+          disablePadding
+          sx={{
+            margin: "16px 0",
+            height: 24,
+            paddingRight: "16px",
+            "&:first-child": { marginTop: 0 },
+          }}
+        >
+          <ListItemButton>
             <ListItemText primary={item.name} />
             {item.nested && <ChevronRightIcon />}
           </ListItemButton>

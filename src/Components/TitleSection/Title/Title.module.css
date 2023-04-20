@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+
 .container {
   position: relative;
   display: flex;
@@ -8,11 +9,13 @@
   padding: 0px;
   gap: 16px;
   width: 100px;
-  height: 60px; /* increased height to make room for heading */
+  height: 60px;
+  /* increased height to make room for heading */
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-top: 24px; /* added margin-top to create space between title and heading */
+  margin-top: 24px;
+  /* added margin-top to create space between title and heading */
 }
 
 .rectangle {
