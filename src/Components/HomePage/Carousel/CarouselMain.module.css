@@ -61,4 +61,9 @@
       margin-top: 8px;
     }
   }
-  
+  @media (max-width: 600px) {
+    .carouselImage {
+      margin: auto;
+      margin-left: 120px;
+    }
+  }

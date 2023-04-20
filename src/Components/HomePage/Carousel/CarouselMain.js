@@ -40,7 +40,7 @@ function CarouselMain() {
         {items.map((item, index) => (
           <Box key={index} display="flex" flexDirection="column" alignItems="center">
             <img src={item.src} alt={item.alt} className={styles.carouselImage} />
-            <p className={styles.carouselCaption}>{item.caption}</p>
+           
           </Box>
         ))}
       </Carousel>
