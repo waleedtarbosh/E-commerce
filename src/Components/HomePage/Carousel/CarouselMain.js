@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from 'react-material-ui-carousel';
-import { Box } from '@material-ui/core';
+import { Box } from '@mui/material';
 import styles from './CarouselMain.module.css';
 
 function CarouselMain() {
@@ -40,7 +40,7 @@ function CarouselMain() {
         {items.map((item, index) => (
           <Box key={index} display="flex" flexDirection="column" alignItems="center">
             <img src={item.src} alt={item.alt} className={styles.carouselImage} />
-            <p className={styles.carouselCaption}>{item.caption}</p>
+           
           </Box>
         ))}
       </Carousel>

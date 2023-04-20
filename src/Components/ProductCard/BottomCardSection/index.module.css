@@ -36,3 +36,13 @@
   margin-top: 16px;
   width: 270px;
 }
+.inStockStyle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #00ff66;
+  opacity: 0.6;
+  margin-left: 20px;
+}
