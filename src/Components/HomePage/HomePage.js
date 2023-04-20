@@ -1,12 +1,13 @@
-import CarouselMain from "./Carousel/CarouselMain";
-import SideBar from "./SideBar";
 import styles from "./HomePage.module.css";
 import FlashSales from "./Sections/FlashSales/FlashSales";
 import BestSelling from "./Sections/BestSelling/BestSelling";
 import CategoriesSale from "../CategoriesSale/index";
 import ExploreOurProducts from "./Sections/ExploreOurProducts/ExploreOurProducts";
 import BrowseByCategory from "./Sections/BrowseByCategory/BrowseByCategory";
+import CarouselMain from "./Carousel/CarouselMain";
+import SideBar from "./SideBar";
 import Featured from "../Featured/index";
+import AppServices from "../Services/AppService";
 
 const HomePage = () => {
   return (
@@ -21,6 +22,7 @@ const HomePage = () => {
       <CategoriesSale />
       <ExploreOurProducts />
       <Featured />
+      <AppServices />
     </div>
   );
 };

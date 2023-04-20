@@ -1,0 +1,11 @@
+.spanStyle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: #000000;
+  margin-right: 25px;
+  margin-top: 10px;
+}

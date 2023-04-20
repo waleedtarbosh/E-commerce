@@ -59,3 +59,31 @@
     margin-top: 8px;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .CarouselName {
+    height: 200px;
+    width: 100%;
+  }
+
+  .carouselImage {
+    height: 200px;
+  }
+
+  .carouselCaption {
+    position: relative;
+    margin-left: 0px;
+    top: auto;
+    transform: none;
+    text-align: center;
+    padding-right: 0;
+    margin-top: 8px;
+  }
+}
+
+@media (max-width: 600px) {
+  .carouselImage {
+    margin: auto;
+    margin-left: 120px;
+  }
+}

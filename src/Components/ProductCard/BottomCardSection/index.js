@@ -12,8 +12,16 @@ const BottomCardSection = ({
   rate,
   count,
   availableColors,
+  inStock,
+  description,
 }) => {
-  const { priceStyle, oldPriceStyle, countStyle, bottomCardSectionStyle } = style;
+  const {
+    priceStyle,
+    oldPriceStyle,
+    countStyle,
+    bottomCardSectionStyle,
+    inStockStyle,
+  } = style;
 
   return (
     <div className={bottomCardSectionStyle}>
@@ -47,6 +55,22 @@ const BottomCardSection = ({
         }
       />
       <span className={countStyle}>{`(${count})`}</span>
+      {inStock && <span className={inStockStyle}>In Stock</span>}
+
+      {description && (
+        <Typography
+          sx={{
+            width: "373px",
+            fontSize: "14px",
+            lineHeight: "24px",
+            fontFamily: "Poppins",
+            color: "#000000",
+            marginTop: "18px",
+          }}
+        >
+          {description}
+        </Typography>
+      )}
 
       {availableColors && <AvailableColors availableColors={availableColors} />}
     </div>
