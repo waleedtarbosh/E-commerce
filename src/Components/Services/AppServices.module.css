@@ -1,0 +1,5 @@
+.ServicesCounter{
+    padding: 140px 0;
+    display: flex;
+    justify-content: space-around;
+}

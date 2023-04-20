@@ -1,0 +1,16 @@
+.TextField{
+ border: 1px solid white;
+  width: 220px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+input{
+    border-radius: 10px;
+    background-color: black;
+    padding: 12px;
+    color: white;
+    outline: none;
+    border: none; 
+}
