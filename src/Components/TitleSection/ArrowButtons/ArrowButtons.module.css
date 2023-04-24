@@ -58,3 +58,9 @@
 .ellipse16 {
   left: calc(100% - 46px);
 }
+@media (max-width: 600px) {
+  .ContainerArrow {
+    height:5px;
+    
+  }
+}

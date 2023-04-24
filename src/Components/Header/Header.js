@@ -16,18 +16,20 @@ const Header = () => {
     <>
       <TopNav />
       <div className={header.Container}>
-      <Box sx={{ fontSize: { xs: '10px', md:'24px',sm:'9px'} , marginLeft: {xs:'-132px', md:'0px'}}}>
+      <Box sx={{ fontSize: { xs: '10px', md:'24px',sm:'9px'}}}>
           <Logo />
         </Box>
-        <Box sx={{ display: { xs: 'none' ,md: 'block',sm:'block'} ,marginLeft:{md:'50px', sm:'-1px'}, marginTop:'10px'}}>
+        <Box sx={{ display: { xs: 'none' ,md: 'block',sm:'block'} ,marginLeft:{md:'50px', sm:'0px'},marginRight:'0px', marginTop:'10px',fontSize: { xs: '8px', md:'16px'}}}>
         <CenteredTabs />
         </Box>
-        <Box sx={{ display: { xs: 'none', md: 'block' , sm: 'block' }, fontSize: { xs: '8px', md:'16px'}, marginTop: '10px'}}>
+        <Box sx={{ display: { xs: 'none', md: 'block' , sm: 'block' }, fontSize: { xs: '8px', md:'16px'}, marginTop: '10px',marginRight:'350px'}}>
           <SearchBarandIcons />
         </Box>
-        <IconButton onClick={handleToggleMenu} sx={{ marginRight:{xs:'115px'},display: { md: 'none' ,sm:'none',} }} >
+        <Box sx={{ marginRight:{xs:'1100px'},display: { md: 'none' ,sm:'none',} }}>
+        <IconButton onClick={handleToggleMenu}  >
           <MenuIcon />
         </IconButton>
+        </Box>
         {showMenu && (
           <Box
             sx={{
