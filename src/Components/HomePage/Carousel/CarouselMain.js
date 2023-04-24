@@ -50,7 +50,14 @@ function CarouselMain() {
               alt={item.alt}
               className={styles.carouselImage}
             />
+<Box 
+sx={{
+ 
+  marginRight: { md:'0px', sm: "-40%"},
+}}
+>
             <p className={styles.carouselCaption}>{item.caption}</p>
+            </Box>
           </Box>
         ))}
       </Carousel>
