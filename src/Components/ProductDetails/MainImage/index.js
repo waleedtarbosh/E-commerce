@@ -9,7 +9,7 @@ const MainImage = ({ id, images }) => {
   return (
     <Box
       sx={{
-        width: "500px",
+        width: { md: "500px", xs: "535px" },
         height: "600px",
         backgroundColor: "#F5F5F5",
         textAlign: "cenetr",

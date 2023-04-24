@@ -25,7 +25,7 @@ const QuantityCounter = () => {
         variant="outlined"
         onClick={handleRemove}
         sx={{
-          width: "41px",
+          width: "39px",
           height: "44px",
           backgroundColor: "#DB4444",
           borderRadius: " 0px 4px 4px 0px",
@@ -35,7 +35,7 @@ const QuantityCounter = () => {
       </Button>
       <Box
         sx={{
-          width: "70px",
+          width: "65px",
           height: "44px",
           border: "1PX solid gray",
           borderRadius: "4px",
@@ -48,7 +48,7 @@ const QuantityCounter = () => {
         variant="outlined"
         onClick={handleAdd}
         sx={{
-          width: "41px",
+          width: "39px",
           height: "44px",
           backgroundColor: "#DB4444",
           borderRadius: " 0px 4px 4px 0px",

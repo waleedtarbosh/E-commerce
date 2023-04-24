@@ -10,6 +10,7 @@ import ProductQuantity from "./ProductQuantity";
 import ProductImages from "./ProductImages";
 import BottomCardSection from "../ProductCard/BottomCardSection";
 import Delivery from "./Delivery";
+import { Container } from "@mui/material";
 
 const ProductDetails = () => {
   const {
@@ -25,34 +26,49 @@ const ProductDetails = () => {
   } = productDetails[0];
 
   return (
-    <Box>
-      <Box sx={{ margin: "80px 0px" }}>
-        <ProductPath path={path} />
-      </Box>
-      <Box sx={{ display: "flex" }}>
-        <Box>
-          <ProductImages images={images} />
+    <Container>
+      <Box sx={{ marginLeft: { md: "70px", lg: "0px", xl: "0px" } }}>
+        <Box sx={{ margin: "80px 0px" }}>
+          <ProductPath path={path} />
         </Box>
-        <Box sx={{ marginLeft: "70px" }}>
-          <BottomCardSection
-            title={title}
-            rate={rate}
-            count={count}
-            price={price}
-            inStock={inStock}
-            description={descreption}
-          />
+        <Box
+          sx={{
+            display: { xl: "flex", lg: "flex", md: "block", xs: "block" },
+          }}
+        >
+          <Box>
+            <ProductImages images={images} />
+          </Box>
+          <Box
+            sx={{
+              marginLeft: { xl: "70px", lg: "65px", md: "20px" },
+            }}
+          >
+            <Box>
+              <BottomCardSection
+                title={title}
+                rate={rate}
+                count={count}
+                price={price}
+                inStock={inStock}
+                description={descreption}
+              />
 
-          <ProductQuantity
-            sizes={sizes}
-            availableColors={availableColors}
-            productIconData={productIconData}
-            sx={{ marginTop: "24px" }}
-          />
-          <Delivery deliveryData={deliveryData} />
+              <ProductQuantity
+                sizes={sizes}
+                availableColors={availableColors}
+                productIconData={productIconData}
+                sx={{ marginTop: "24px" }}
+              />
+            </Box>
+
+            <Box>
+              <Delivery deliveryData={deliveryData} />
+            </Box>
+          </Box>
         </Box>
       </Box>
-    </Box>
+    </Container>
   );
 };
 

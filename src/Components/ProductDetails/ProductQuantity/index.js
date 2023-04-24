@@ -26,7 +26,7 @@ const ProductQuantity = ({ sizes, availableColors, productIconData }) => {
         <Button
           variant="outlined"
           sx={{
-            width: "165px",
+            width: "160px",
             height: "44px",
             backgroundColor: "#DB4444",
             borderRadius: "4px",
