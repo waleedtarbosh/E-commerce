@@ -1,0 +1,18 @@
+.wrapper {
+    margin: 140px 0;
+    position: relative;
+}
+
+.wrapper:nth-child(3) {
+    padding: 80px 0;
+    border-top: 1px solid #b3b3b3;
+    border-bottom: 1px solid #b3b3b3;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    gap: 30px;
+    margin-top: 60px;
+}

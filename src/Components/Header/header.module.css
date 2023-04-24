@@ -1,8 +1,7 @@
-.Container{
+.Container {
     display: flex;
-    margin-left: 135px;
-    margin-right: 139px;
-    margin-top: 20px;
+    width: 1170px;
+    margin: 20px auto 56px;
     align-items: center;
     justify-content: space-between;
 }

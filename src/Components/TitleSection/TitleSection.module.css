@@ -1,13 +1,15 @@
 .flexContainer {
   display: flex;
+  height: 103px;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 87px;
+  margin-bottom: 12px;
 }
 
 .container {
   justify-content: space-between;
   align-items: center;
-  margin-left: 10%;
 }
 
-.Countdown {
-  margin-top: 115px !important;
-}
+.Countdown {}

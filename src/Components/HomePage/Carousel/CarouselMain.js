@@ -38,7 +38,7 @@ function CarouselMain() {
         navButtonsAlwaysVisible={false}
       >
         {items.map((item, index) => (
-          <Box key={index} display="flex" flexDirection="column" alignItems="center">
+          <Box key={index} display="flex" flexDirection="row-reverse" alignItems="center" justifyContent="space-between">
             <img src={item.src} alt={item.alt} className={styles.carouselImage} />
            
           </Box>
