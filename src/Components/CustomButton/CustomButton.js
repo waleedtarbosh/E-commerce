@@ -12,7 +12,11 @@ const CustomButton = ({ content, backgroundColor }) => {
         color: "#FFFFFF",
         fontSize: "16px",
         margin: "60px auto",
-        display: "block"
+        display: "block",
+        "&:hover": {
+          background: backgroundColor,
+          opacity: "0.7",
+        },
       }}
     >
       {content}

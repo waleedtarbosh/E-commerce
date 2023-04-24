@@ -2,12 +2,9 @@ import { flashSalesData } from "../../../../data/flashSalesData";
 import DataView from "../../../../helpers/DataView";
 import CustomButton from "../../../CustomButton/CustomButton";
 import SectionWrapper from "../SectionWrapper/SectionWrapper";
+import styles from "./BestSelling.module.css";
 
 const BestSelling = () => {
-  const wrapperStyle = {
-    overflow: "hidden",
-    flexWrap: "nowrap",
-  };
   return (
     <SectionWrapper
       RightPartOfTheSection={
@@ -15,7 +12,7 @@ const BestSelling = () => {
       }
       title="This Month"
       heading="Best Selling Products"
-      style={wrapperStyle}
+      style={styles.wrapper}
     >
       <DataView dataSource={flashSalesData} />
     </SectionWrapper>

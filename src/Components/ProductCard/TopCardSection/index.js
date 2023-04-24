@@ -72,6 +72,11 @@ const TopCardSection = ({ disCount, image }) => {
             borderRadius: "0px 0px 4px 4px",
             color: "#FFFFFF",
             fontSize: "16px",
+            opacity: "0.7",
+            "&:hover": {
+              backgroundColor: "#000",
+              opacity: "1",
+            },
           }}
         >
           Add To Cart
