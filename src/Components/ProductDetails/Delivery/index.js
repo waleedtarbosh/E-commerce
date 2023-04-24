@@ -5,14 +5,14 @@ import Typography from "@mui/material/Typography";
 const Delivery = ({ deliveryData }) => {
   console.log(deliveryData);
   return (
-    <Box sx={{ widht: "373px", marginTop: "35px" }}>
+    <Box sx={{ marginTop: "35px" }}>
       {deliveryData &&
         deliveryData.map(({ id, icon, title, info }) => {
           return (
             <Box
               key={id}
               sx={{
-                widht: "373px",
+                width: "373px",
                 display: "flex",
                 margin: "0px 15px 0px 15px",
                 border: "1px solid gray",

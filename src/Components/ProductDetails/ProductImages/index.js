@@ -11,17 +11,18 @@ const ProductImages = ({ images }) => {
     <>
       <Box
         sx={{
-          display: "flex",
+          display: { md: "flex", sm: "block", xs: "block" },
           justifyContent: "space-between",
           width: "700px",
         }}
       >
-        <Box sx={{ marginRight: "30px" }}>
+        <Box sx={{ marginRight: "30px", display: { xs: "flex", md: "block" } }}>
           {images.map(({ img, id }) => {
             return (
               <Box
                 sx={{
-                  width: "170px",
+                  width: { md: "170px", xs: "125px" },
+                  marginRight: { md: "0px", xs: "15px" },
                   height: "138px",
                   backgroundColor: "#F5F5F5",
                   textAlign: "cenetr",

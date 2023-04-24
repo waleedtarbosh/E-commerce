@@ -15,15 +15,15 @@ const AvailableSizes = ({ sizes }) => {
           <Button
             key={id}
             sx={{
-              width: "32px",
-              height: "32px",
+              width: "25px",
+              height: "25px",
               borderRadius: "4px",
               fontSize: "14px",
               fontWeight: "500",
               color: "#000000",
               border: "1px solid gray",
               padding: 2.5,
-              marginRight: "15px",
+              marginRight: "10px",
               backgroundColor: isSelected === id ? "#DB4444" : "#FFFFFF",
             }}
             onClick={() => handleClick(id)}
