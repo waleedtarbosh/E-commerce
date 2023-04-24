@@ -2,9 +2,11 @@ import LocalShippingOutlinedIcon from "@mui/icons-material/LocalShippingOutlined
 import HeadsetMicOutlinedIcon from "@mui/icons-material/HeadsetMicOutlined";
 import VerifiedUserOutlinedIcon from "@mui/icons-material/VerifiedUserOutlined";
 import AppService from "./AppService";
+import { Box } from "@mui/material";
 import styles from "./AppServices.module.css";
+
 export default function AppServices() {
-  const AppServices = [
+  const appServices = [
     {
       id: 1,
       Icon: <LocalShippingOutlinedIcon sx={{ color: "white" }} />,
@@ -26,15 +28,29 @@ export default function AppServices() {
   ];
 
   return (
-    <div className={styles.ServicesCounter}>
-      {AppServices.map((item) => (
-        <AppService
+    <Box
+      className={styles.ServicesCounter}
+      display="flex"
+      flexDirection={{ xs: "column", sm: "row",md:"row" }}
+      flexWrap="wrap"
+      justifyContent="space-between"
+      marginRight={{ md:"0px",xs: "70%",sm: "20%"}}
+     
+    >
+      {appServices.map((item) => (
+        <Box
           key={item.id}
-          title={item.Title}
-          description={item.Description}
-          serviceIcon={item.Icon}
-        />
+          width={{ xs: "100%", sm: "calc(50% - 8px)", md: "calc(33.3% - 8px)" }}
+          mb={{ xs: 2, sm: 2 ,md:0}}
+          mr={{ xs: 0, sm: 0,md:1 }}
+        >
+          <AppService
+            title={item.Title}
+            description={item.Description}
+            serviceIcon={item.Icon}
+          />
+        </Box>
       ))}
-    </div>
+    </Box>
   );
 }
