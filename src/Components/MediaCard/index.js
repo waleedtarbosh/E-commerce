@@ -4,6 +4,7 @@ import Typography from "@mui/material/Typography";
 import { Box } from "@mui/material";
 import styles from "./style.module.css";
 import dataMediaCard from "../../data/dataMediaCard";
+import Countdown from "../TitleSection/Countdown/Countdown";
 
 export default function MediaCard({
   image,
@@ -13,6 +14,7 @@ export default function MediaCard({
   titleClassName,
   descriptionClassName,
   buttonClassName,
+  showCountdown,
 }) {
   const data = dataMediaCard({
     title,
@@ -32,6 +34,17 @@ export default function MediaCard({
             {item.value}
           </Typography>
         ))}
+        {showCountdown && (
+          <Countdown
+            days={3}
+            hours={23}
+            minutes={19}
+            seconds={56}
+            dayCounter={styles.dayCountdown}
+            labelCounter={styles.label}
+            valueCounter={styles.value}
+          />
+        )}
       </CardContent>
     </Box>
   );

@@ -48,8 +48,7 @@ const SideBar = () => {
   return (
     <List
       sx={{
-        width: "100%",
-        maxWidth: 217,
+        width: 217,
         bgcolor: "background.paper",
         "&::before": {
           content: "''",
