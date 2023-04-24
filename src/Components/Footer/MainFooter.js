@@ -3,7 +3,7 @@ import FooterColumn from "./FooterColumn";
 import Dwonloads from "./Dwonloads";
 import styles from "./MainFooter.module.css";
 export default function MainFooter() {
-  const Exclusive = [
+  const Exclusive = [ 
     "Get 10% off your first order",
   ]
 
