@@ -27,9 +27,9 @@
 .description {
     width: 443px !important;
     font-weight: 600 !important;
-    font-size: 48px !important;
+    font-size: 45px !important;
     color: #FAFAFA;
-    margin: 32px 0 !important;
+    margin: 32px 0 32px -15px  !important;
 }
 
 
@@ -44,3 +44,27 @@
     order: 1;
     margin-top: 40px !important;
 }
+
+@media only screen and (max-width: 900px) {
+    .categories_sale {
+        margin-right:400px;
+        width: 835px;
+        height: 500px;
+    }
+    .categories_sale img {
+       left: 40%;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .categories_sale {
+        margin-right:900px;
+        width: 390px;
+        height: 471px;
+    }
+    .categories_sale img {
+        left: -20%;
+        width: 475px;
+        height: 300px;
+     }
+  }
