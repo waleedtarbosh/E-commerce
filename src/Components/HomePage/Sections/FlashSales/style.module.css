@@ -1,0 +1,14 @@
+.wrapper {
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+}
+
+.wrapper::-webkit-scrollbar {
+    height: 10px;
+}
+
+.wrapper::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 10px;
+
+}

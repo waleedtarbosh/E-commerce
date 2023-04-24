@@ -26,9 +26,7 @@ const SectionWrapper = ({
         heading={heading}
         RightPartOfTheSection={RightPartOfTheSection}
       />
-      <div className={styles.product} style={style}>
-        {children}
-      </div>
+      <div className={`${styles.product} ${style}`}>{children}</div>
       {showMore()}
     </div>
   );
