@@ -41,4 +41,6 @@
     border-radius: 4px;
     color: #FAFAFA;
     cursor: pointer;
+    order: 1;
+    margin-top: 40px !important;
 }

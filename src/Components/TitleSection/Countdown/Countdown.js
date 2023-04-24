@@ -1,8 +1,16 @@
-import React from 'react';
-import styles from './Countdown.module.css';
-import { countdownUnits, semiCircleClasses } from '../../../data/CountdownData';
+import React from "react";
+import styles from "./Countdown.module.css";
+import { countdownUnits, semiCircleClasses } from "../../../data/CountdownData";
 
-const Countdown = ({ days, hours, minutes, seconds }) => {
+const Countdown = ({
+  days,
+  hours,
+  minutes,
+  seconds,
+  dayCounter,
+  labelCounter,
+  valueCounter,
+}) => {
   // use the props passed to the component to update the values in countdownUnits
   countdownUnits[0].value = days;
   countdownUnits[1].value = hours;
@@ -17,15 +25,22 @@ const Countdown = ({ days, hours, minutes, seconds }) => {
           <div className={`${circle.ellipse2}`}></div>
         </div>
       ))}
-      
+
       {countdownUnits.map((unit) => (
-        <div className={`${styles.counter} ${unit.counterClass}`} key={unit.id}>
-          <div className={`${styles.label} ${unit.labelClass}`}>{unit.label}</div>
-          <div className={` ${unit.valueClass}`}>{unit.value.toString().padStart(2, '0')}</div>
+        <div
+          className={`${styles.counter} ${unit.counterClass} ${dayCounter}`}
+          key={unit.id}
+        >
+          <div className={`${styles.label} ${unit.labelClass} ${labelCounter}`}>
+            {unit.label}
+          </div>
+          <div className={` ${unit.valueClass} ${valueCounter}`}>
+            {unit.value.toString().padStart(2, "0")}
+          </div>
         </div>
       ))}
     </div>
   );
-}
+};
 
 export default Countdown;
