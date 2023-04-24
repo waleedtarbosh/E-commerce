@@ -9,6 +9,7 @@ const SectionWrapper = ({
   isShowMore,
   children,
   showCountdown = false,
+  style,
 }) => {
   const showMore = () => {
     if (isShowMore)
@@ -25,7 +26,9 @@ const SectionWrapper = ({
         heading={heading}
         RightPartOfTheSection={RightPartOfTheSection}
       />
-      <div className={styles.product}>{children}</div>
+      <div className={styles.product} style={style}>
+        {children}
+      </div>
       {showMore()}
     </div>
   );

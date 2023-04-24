@@ -6,8 +6,8 @@ import ExploreOurProducts from "./Sections/ExploreOurProducts/ExploreOurProducts
 import BrowseByCategory from "./Sections/BrowseByCategory/BrowseByCategory";
 import CarouselMain from "./Carousel/CarouselMain";
 import SideBar from "./SideBar";
-import Featured from "../Featured/index";
-import AppServices from "../Services/AppService";
+import FeaturedSection from "./Sections/FeaturedSection/FeaturedSection";
+import AppServices from "../Services/AppServices";
 
 const HomePage = () => {
   return (
@@ -21,7 +21,7 @@ const HomePage = () => {
       <BestSelling />
       <CategoriesSale />
       <ExploreOurProducts />
-      <Featured />
+      <FeaturedSection />
       <AppServices />
     </div>
   );

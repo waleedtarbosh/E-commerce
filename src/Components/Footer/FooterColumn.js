@@ -4,11 +4,11 @@ export default function FooterColumn({ columnTitle, ListItem, children }) {
     <div className={styles.FooterColumn}>
       <h3>{columnTitle}</h3>
       <ul>
-        {ListItem.map((item) => (
-          <li>{item}</li>
+        {ListItem.map((item, index) => (
+          <li key={index}>{item}</li>
         ))}
       </ul>
       {children}
     </div>
   );
-};
+}
