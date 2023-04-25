@@ -27,6 +27,7 @@ export default function MediaCard({
 
   return (
     <Box>
+
       <img src={`./img/${image}`} alt="1" />
       <CardContent className={styles.text}>
         {data.map((item) => (
