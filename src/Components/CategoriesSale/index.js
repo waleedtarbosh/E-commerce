@@ -11,27 +11,14 @@ export default function CategoriesSale() {
     buttonClassName: styles.button,
   };
   return (
-<Box
-  className={styles.categories_sale}
-  sx={{
-    width: { xs: "390px", sm: "835px",md:'1170px' },
-    height: { xs: "471px", sm: "500px",md:'500px;' },
-    marginRight: { xs: "900px", sm: "400px" },
-    "& img": {
-      width: { xs: "475px", sm: "auto" },
-      height: { xs: "300px", sm: "auto" },
-      left: { xs: "-20%", sm: "40%" },
-    },
-  }}
->
-  {dataCategoriesSale.map((item) => {
-    return (
-      <Box key={item.id} className={styles.featured_box}>
-        <MediaCard {...item} {...cardProps} showCountdown />
-      </Box>
-    );
-  })}
-</Box>
-
+    <Box className={styles.categories_sale}>
+      {dataCategoriesSale.map((item) => {
+        return (
+          <Box key={item.id} className={styles.featured_box}>
+            <MediaCard {...item} {...cardProps} showCountdown showImage />
+          </Box>
+        );
+      })}
+    </Box>
   );
 }
