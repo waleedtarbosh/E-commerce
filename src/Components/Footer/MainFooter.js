@@ -6,7 +6,6 @@ import { Grid } from "@mui/material";
 
 export default function MainFooter() {
   const Exclusive = ["Get 10% off your first order"];
-
   const Support = [
     " 111 Bijou sarnie, Dhaka, DH 1515, Bangladesh.",
     "exclusive@gmail.com",

@@ -1,12 +1,8 @@
-import Header from "../src/Components/Header/Header";
-import Footer from "./Components/Footer/Footer";
-import HomePage from "./Components/HomePage/HomePage";
+import Router from "./Components/route";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <HomePage />
-      <Footer />
+      <Router/>
     </div>
   );
 }
