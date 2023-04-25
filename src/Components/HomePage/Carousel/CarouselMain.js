@@ -69,6 +69,7 @@ function CarouselMain() {
             <Box
               sx={{
                 marginRight: { md: "0px", sm: "-40%" },
+                display: { md:'block',xs: "none"},
               }}
             >
               <MediaCard {...item} title={item.category} {...cardProps} />
