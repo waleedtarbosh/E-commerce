@@ -2,7 +2,7 @@ import { Box, Button } from "@mui/material";
 
 const CustomButton = ({ content, backgroundColor }) => {
   return (
-    <Box sx={{ marginRight: { xs: "750px", md: "0px", sm: "400px" } }}>
+    <Box sx={{ marginRight: { xs: "0", md: "0px", sm: "400px" } }}>
       <Button
         sx={{
           width: "210px",

@@ -5,3 +5,10 @@
     color: white;
     width: 1170px;
 }
+
+@media (max-width: 600px) {
+    .Container {
+        width: 480px;
+        align-items: center;
+    }
+}

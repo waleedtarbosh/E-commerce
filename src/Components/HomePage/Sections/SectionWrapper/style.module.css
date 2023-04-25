@@ -16,3 +16,13 @@
     gap: 30px;
     margin-top: 60px;
 }
+
+@media (max-width: 600px) {
+    .wrapper {
+        margin: 70px 0;
+    }
+
+    .product {
+        justify-content: center;
+    }
+}

@@ -15,7 +15,6 @@
     left: calc(((50% - 568px) / 2) + 568px);
     top: 50%;
     transform: translateY(-50%);
-
 }
 
 .title {
@@ -29,7 +28,7 @@
     font-weight: 600 !important;
     font-size: 45px !important;
     color: #FAFAFA;
-    margin: 32px 0 32px -15px  !important;
+    margin: 32px 0 32px -15px !important;
 }
 
 
@@ -45,3 +44,15 @@
     margin-top: 40px !important;
 }
 
+@media (max-width: 600px) {
+    .categories_sale {
+        width: 520px;
+        height: 800px;
+    }
+
+    .categories_sale img {
+        position: static;
+        width: 480px;
+        transform: translateY(0);
+    }
+}
