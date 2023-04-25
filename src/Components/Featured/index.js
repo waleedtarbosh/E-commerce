@@ -14,7 +14,7 @@ export default function Featured() {
     <Box className={styles.main_box}>
       {dataFeatured.map((item) => (
         <Box key={item.id} className={styles.featured_box}>
-          <MediaCard {...item} {...cardProps} />
+          <MediaCard {...item} {...cardProps} showImage />
         </Box>
       ))}
     </Box>

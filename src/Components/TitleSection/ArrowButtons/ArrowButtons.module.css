@@ -13,6 +13,11 @@
   height: 46px;
   border-radius: 50%;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  opacity: 0.72;
 }
 
 .iconArrow {
@@ -57,4 +62,11 @@
 
 .ellipse16 {
   left: calc(100% - 46px);
+}
+
+@media (max-width: 600px) {
+  .ContainerArrow {
+    height: 5px;
+
+  }
 }

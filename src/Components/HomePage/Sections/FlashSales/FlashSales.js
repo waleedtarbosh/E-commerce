@@ -2,12 +2,9 @@ import { flashSalesData } from "../../../../data/flashSalesData";
 import DataView from "../../../../helpers/DataView";
 import ArrowButtons from "../../../TitleSection/ArrowButtons/ArrowButtons";
 import SectionWrapper from "../SectionWrapper/SectionWrapper";
+import styles from "./style.module.css";
 
 const FlashSales = () => {
-  const wrapperStyle = {
-    overflowX: "scroll",
-    flexWrap: "nowrap",
-  };
   return (
     <SectionWrapper
       RightPartOfTheSection={<ArrowButtons />}
@@ -15,7 +12,7 @@ const FlashSales = () => {
       heading="Flash Sales"
       showCountdown
       isShowMore
-      style={wrapperStyle}
+      style={styles.wrapper}
     >
       <DataView dataSource={flashSalesData} containsMultiColors />
     </SectionWrapper>

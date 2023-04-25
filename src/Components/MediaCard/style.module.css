@@ -2,4 +2,33 @@
     position: absolute;
     bottom: 0;
     padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.countdown {
+    margin-bottom: 40px;
+}
+
+.dayCountdown {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 62px;
+    height: 62px;
+    justify-content: center;
+    align-items: center;
+}
+
+.label {
+    font-size: 11px;
+    order: 1;
+}
+
+.value {
+    font-size: 16px;
+    order: 0;
+}
+
+.semiColone {
+    display: none;
 }
