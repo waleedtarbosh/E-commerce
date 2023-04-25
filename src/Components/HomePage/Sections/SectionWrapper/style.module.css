@@ -1,6 +1,7 @@
 .wrapper {
-    margin: 140px 0;
+    margin: 140px auto;
     position: relative;
+    width: 1140px;
 }
 
 .wrapper:nth-child(3) {
