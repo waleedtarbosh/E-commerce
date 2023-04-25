@@ -27,9 +27,9 @@
 .description {
     width: 443px !important;
     font-weight: 600 !important;
-    font-size: 48px !important;
+    font-size: 45px !important;
     color: #FAFAFA;
-    margin: 32px 0 !important;
+    margin: 32px 0 32px -15px  !important;
 }
 
 
@@ -44,3 +44,4 @@
     order: 1;
     margin-top: 40px !important;
 }
+
