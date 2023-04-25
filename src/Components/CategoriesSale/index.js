@@ -13,9 +13,11 @@ export default function CategoriesSale() {
   return (
     <Box
       className={styles.categories_sale}
-      display="flex"
-      sx={{ flexDirection: { xs: "column", sm: "column" } }}
-      alignItems="center"
+      sx={{
+        flexDirection: { xs: "column", sm: "row" },
+        display: { xs: "flex" },
+        alignItems: { xs: "center" },
+      }}
     >
       {dataCategoriesSale.map((item) => {
         return (
