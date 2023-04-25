@@ -31,18 +31,17 @@ export default function AppServices() {
     <Box
       className={styles.ServicesCounter}
       display="flex"
-      flexDirection={{ xs: "column", sm: "row",md:"row" }}
+      flexDirection={{ xs: "column", sm: "row", md: "row" }}
       flexWrap="wrap"
       justifyContent="space-between"
-      marginRight={{ md:"0px",xs: "70%",sm: "20%"}}
-     
+      marginRight={{ md: "0px", xs: "0", sm: "0" }}
     >
       {appServices.map((item) => (
         <Box
           key={item.id}
           width={{ xs: "100%", sm: "calc(50% - 8px)", md: "calc(33.3% - 8px)" }}
-          mb={{ xs: 2, sm: 2 ,md:0}}
-          mr={{ xs: 0, sm: 0,md:1 }}
+          mb={{ xs: 2, sm: 2, md: 0 }}
+          mr={{ xs: 0, sm: 0, md: 1 }}
         >
           <AppService
             title={item.Title}

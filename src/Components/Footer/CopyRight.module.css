@@ -1,14 +1,20 @@
-.CopyRight{
-    display: flex;
+.CopyRight {
+  display: flex;
   justify-content: center;
   align-items: center;
   border-top: 1px solid #111;
-  background-color: black; 
+  background-color: black;
 }
 
-.CopyRight p{
-    font-size: 16px;
-    color: #fff;
-    opacity: 0.7;
-    margin: 16px 0; 
+.CopyRight p {
+  font-size: 16px;
+  color: #fff;
+  opacity: 0.7;
+  margin: 16px 0;
+}
+
+@media (max-width: 600px) {
+  .CopyRight {
+    width: 480px;
+  }
 }

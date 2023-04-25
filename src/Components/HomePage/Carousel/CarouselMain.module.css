@@ -147,6 +147,11 @@
 @media (max-width: 600px) {
   .carouselImage {
     margin: auto;
-    margin-left: 120px;
+  }
+
+  .description,
+  .button,
+  .title {
+    display: none;
   }
 }

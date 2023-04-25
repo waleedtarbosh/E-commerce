@@ -6,3 +6,9 @@
     background-color: #000;
     align-items: center;
 }
+
+@media (max-width: 600px) {
+    .Footer {
+        width: 520px;
+    }
+}

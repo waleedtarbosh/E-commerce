@@ -1,10 +1,12 @@
 .TopNav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     background-color: #000000;
     color: white;
     align-items: center;
     margin: auto;
+    padding: 0 20px;
+    width: 1440px;
 }
 
 .link {
@@ -19,4 +21,10 @@
 
 .link:hover {
     color: rgb(173, 125, 21);
+}
+
+@media (max-width: 600px) {
+    .TopNav {
+        width: 520px;
+    }
 }

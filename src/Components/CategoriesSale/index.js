@@ -11,7 +11,12 @@ export default function CategoriesSale() {
     buttonClassName: styles.button,
   };
   return (
-    <Box className={styles.categories_sale}>
+    <Box
+      className={styles.categories_sale}
+      display="flex"
+      sx={{ flexDirection: { xs: "column", sm: "column" } }}
+      alignItems="center"
+    >
       {dataCategoriesSale.map((item) => {
         return (
           <Box key={item.id} className={styles.featured_box}>
