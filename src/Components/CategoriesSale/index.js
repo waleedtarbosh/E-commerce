@@ -21,7 +21,7 @@ export default function CategoriesSale() {
     "& img": {
       width: { xs: "475px", sm: "auto" },
       height: { xs: "300px", sm: "auto" },
-      left: { xs: "-20%", sm: "35%" },
+      left: { xs: "-20%", sm: "35%",md:'40%' },
     },
   }}
 >
