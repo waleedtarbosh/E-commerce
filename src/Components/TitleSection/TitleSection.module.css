@@ -11,4 +11,8 @@
   align-items: center;
 }
 
-.Countdown {}
+@media (max-width: 600px) {
+  .flexContainer {
+    flex-direction: column;
+  }
+}
