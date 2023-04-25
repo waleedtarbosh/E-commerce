@@ -5,7 +5,7 @@ import styles from "./MainFooter.module.css";
 import { Grid } from "@mui/material";
 
 export default function MainFooter() {
-  const Exclusive = [
+  const Exclusive = [ 
     "Get 10% off your first order",
   ]
 
