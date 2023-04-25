@@ -11,7 +11,20 @@ export default function CategoriesSale() {
     buttonClassName: styles.button,
   };
   return (
-    <Box className={styles.categories_sale}>
+
+   <Box
+  className={styles.categories_sale}
+  sx={{
+    width: { md:'1170px',xs: "390px", sm: "835px" },
+    height: { md:'500px',xs: "471px", sm: "500px"},
+    marginRight: { xs: "900px", sm: "400px" },
+    "& img": {
+      width: { xs: "475px", sm: "auto" },
+      height: { xs: "300px", sm: "auto" },
+      left: { xs: "-20%", sm: "35%" },
+    },
+  }}
+>
       {dataCategoriesSale.map((item) => {
         return (
           <Box key={item.id} className={styles.featured_box}>
