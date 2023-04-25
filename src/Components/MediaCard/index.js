@@ -15,6 +15,7 @@ export default function MediaCard({
   descriptionClassName,
   buttonClassName,
   showCountdown,
+  showImage,
 }) {
   const data = dataMediaCard({
     title,
@@ -27,7 +28,7 @@ export default function MediaCard({
 
   return (
     <Box>
-      <img src={`./img/${image}`} alt="1" />
+      {showImage && <img src={image} alt={title} />}
       <CardContent className={styles.text}>
         {data.map((item) => (
           <Typography key={item.id} {...item}>
@@ -40,9 +41,11 @@ export default function MediaCard({
             hours={23}
             minutes={19}
             seconds={56}
+            countdown={styles.countdown}
             dayCounter={styles.dayCountdown}
             labelCounter={styles.label}
             valueCounter={styles.value}
+            semiColone={styles.semiColone}
           />
         )}
       </CardContent>

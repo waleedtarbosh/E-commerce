@@ -15,7 +15,7 @@ export default function CategoriesSale() {
       {dataCategoriesSale.map((item) => {
         return (
           <Box key={item.id} className={styles.featured_box}>
-            <MediaCard {...item} {...cardProps} showCountdown />
+            <MediaCard {...item} {...cardProps} showCountdown showImage />
           </Box>
         );
       })}

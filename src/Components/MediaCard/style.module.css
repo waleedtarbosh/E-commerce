@@ -6,11 +6,15 @@
     flex-direction: column;
 }
 
+.countdown {
+    margin-bottom: 40px;
+}
+
 .dayCountdown {
     background-color: #fff;
     border-radius: 50%;
-    width: 56px;
-    height: 56px;
+    width: 62px;
+    height: 62px;
     justify-content: center;
     align-items: center;
 }
@@ -23,4 +27,8 @@
 .value {
     font-size: 16px;
     order: 0;
+}
+
+.semiColone {
+    display: none;
 }

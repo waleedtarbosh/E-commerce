@@ -20,6 +20,7 @@ const CardIcons = ({
           width: 34,
           height: 34,
           variant: variant || "",
+          cursor: "pointer",
         }}
       >
         {iconName}

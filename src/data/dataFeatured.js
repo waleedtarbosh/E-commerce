@@ -5,7 +5,7 @@ export const dataFeatured = [
     price: 114,
     description: "Black and White version of the PS5 coming out on sale.",
     category: "electronics",
-    image: "ps5-slim-goedkope-playstation_large 1.svg",
+    image: "./img/ps5-slim-goedkope-playstation_large 1.svg",
     rating: {
       rate: 4.8,
       count: 400,
@@ -17,7 +17,7 @@ export const dataFeatured = [
     title: "Women’s Collections",
     price: 109.95,
     description: "Featured woman collections that give you another vibe.",
-    image: "attractive-woman-wearing-hat-posing-black-background 1.svg",
+    image: "./img/attractive-woman-wearing-hat-posing-black-background 1.svg",
     rating: {
       rate: 3.9,
       count: 120,
@@ -31,7 +31,7 @@ export const dataFeatured = [
     description: "Amazon wireless speakers",
     category: "men's clothing",
     image:
-      "69-694768_amazon-echo-png-clipart-transparent-amazon-echo-png 1.svg",
+      "./img/69-694768_amazon-echo-png-clipart-transparent-amazon-echo-png 1.svg",
     rating: {
       rate: 4.1,
       count: 259,
@@ -44,7 +44,7 @@ export const dataFeatured = [
     price: 55.99,
     description: "GUCCI INTENSE OUD EDP",
     category: "men's clothing",
-    image: "perfume.svg",
+    image: "./img/perfume.svg",
     rating: {
       rate: 4.7,
       count: 500,

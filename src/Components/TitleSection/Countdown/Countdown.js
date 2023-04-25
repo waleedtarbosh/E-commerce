@@ -7,9 +7,11 @@ const Countdown = ({
   hours,
   minutes,
   seconds,
+  countdown,
   dayCounter,
   labelCounter,
   valueCounter,
+  semiColone,
 }) => {
   // use the props passed to the component to update the values in countdownUnits
   countdownUnits[0].value = days;
@@ -18,11 +20,11 @@ const Countdown = ({
   countdownUnits[3].value = seconds;
 
   return (
-    <div className={styles.group}>
+    <div className={`${styles.group} ${countdown}`}>
       {semiCircleClasses.map((circle) => (
-        <div className={`${circle.cloneClass}`} key={circle.id}>
-          <div className={`${circle.ellipse1}`}></div>
-          <div className={`${circle.ellipse2}`}></div>
+        <div className={`${circle.cloneClass} ${semiColone}`} key={circle.id}>
+          <div className={`${circle.ellipse1} ${semiColone}`}></div>
+          <div className={`${circle.ellipse2} ${semiColone}`}></div>
         </div>
       ))}
 
