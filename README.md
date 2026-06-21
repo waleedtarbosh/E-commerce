@@ -18,21 +18,6 @@ Beyond its clean design, the application is built with a focus on robust compone
 - **React Router** (Dynamic Navigation)
 - **CSS Modules** (Scoped component styling)
 
-## 📸 Screenshots 🖼️
-
-<div align="center">
-  <table>
-    <tr>
-      <th align="center">Desktop View</th>
-      <th align="center">Mobile View</th>
-    </tr>
-    <tr>
-      <td align="center">*(Replace with your Desktop Screenshot)*</td>
-      <td align="center">*(Replace with your Mobile Screenshot)*</td>
-    </tr>
-  </table>
-</div>
-
 ## 📖 Table of Contents
 
 - [🛠️ Technologies & Styles Used 🎨](#️-technologies--styles-used-)
