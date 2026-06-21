@@ -6,7 +6,7 @@ export const flashSalesData = [
     oldPrice: 160,
     disCount: 40,
     category: "men's clothing",
-    image: "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+    image: "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png",
     rating: {
       rate: 3.9,
       count: 120,
@@ -24,7 +24,7 @@ export const flashSalesData = [
     disCount: 20,
     category: "men's clothing",
     image:
-      "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png",
     rating: {
       rate: 4.1,
       count: 259,
@@ -37,7 +37,7 @@ export const flashSalesData = [
     oldPrice: 60,
     disCount: 30,
     category: "men's clothing",
-    image: "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+    image: "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png",
     rating: {
       rate: 4.7,
       count: 500,
@@ -51,7 +51,7 @@ export const flashSalesData = [
     oldPrice: 100,
     disCount: 45,
     category: "jewelery",
-    image: "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+    image: "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_t.png",
     rating: {
       rate: 4.6,
       count: 400,
@@ -64,7 +64,7 @@ export const flashSalesData = [
     oldPrice: 130,
     disCount: 65,
     category: "electronics",
-    image: "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+    image: "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_t.png",
     rating: {
       rate: 3.3,
       count: 203,
@@ -77,7 +77,7 @@ export const flashSalesData = [
     oldPrice: 70,
     disCount: 20,
     category: "women's clothing",
-    image: "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+    image: "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_t.png",
     rating: {
       rate: 2.6,
       count: 235,

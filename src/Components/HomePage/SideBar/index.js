@@ -5,44 +5,7 @@ import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 
-let sidBareItems = [
-  {
-    name: "Woman’s Fashion",
-    nested: true,
-  },
-  {
-    name: "Men’s Fashion",
-    nested: true,
-  },
-  {
-    name: "Electronics",
-    nested: false,
-  },
-  {
-    name: "Home & Lifestyle",
-    nested: false,
-  },
-  {
-    name: "Medicine",
-    nested: false,
-  },
-  {
-    name: "Sports & Outdoor",
-    nested: false,
-  },
-  {
-    name: "Baby’s & Toys",
-    nested: false,
-  },
-  {
-    name: "Groceries & Pets",
-    nested: false,
-  },
-  {
-    name: "Health & Beauty",
-    nested: false,
-  },
-];
+import { sideBarItems } from "../../../data/sideBarData";
 
 const SideBar = () => {
   return (
@@ -63,9 +26,9 @@ const SideBar = () => {
       component="nav"
       aria-labelledby="nested-list-subheader"
     >
-      {sidBareItems.map((item, index) => (
+      {sideBarItems.map((item) => (
         <ListItem
-          key={index}
+          key={item.id}
           disablePadding
           sx={{
             margin: "16px 0",

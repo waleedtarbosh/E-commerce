@@ -4,16 +4,14 @@ import styles from "./Icons.module.css";
 export default function Icons() {
   const icons = [
     {
-      id:1,
-      icon:<FavoriteBorderOutlinedIcon/>,
-    }
-      ,
-     {
-      id:2,
-      icon:<ShoppingCartOutlinedIcon/>,
-     } 
-      
-  ]
+      id: 1,
+      icon: <FavoriteBorderOutlinedIcon />,
+    },
+    {
+      id: 2,
+      icon: <ShoppingCartOutlinedIcon />,
+    },
+  ];
   return (
     <div className={styles.Icons}>
       {icons.map((item) => (

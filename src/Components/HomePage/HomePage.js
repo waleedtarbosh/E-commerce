@@ -4,7 +4,7 @@ import BestSelling from "./Sections/BestSelling/BestSelling";
 import CategoriesSale from "../CategoriesSale/index";
 import ExploreOurProducts from "./Sections/ExploreOurProducts/ExploreOurProducts";
 import BrowseByCategory from "./Sections/BrowseByCategory/BrowseByCategory";
-import CarouselMain from "./Carousel/CarouselMain";
+import CarouselMain from "./Carousel";
 import SideBar from "./SideBar";
 import FeaturedSection from "./Sections/FeaturedSection/FeaturedSection";
 import AppServices from "../Services/AppServices";
